@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+body{
+   background-color: rgb(189, 210, 217);
+}
+
+#head{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(32, 66, 112);
+    border: solid;
+    background-color: white;
+    border-width: 4px;
+}
+#btns{
+    color: rgb(32, 66, 112);
+    border: solid;
+    background-color: white;
+    border-width: 3.5px;
+    }
+.game{
+    width: 500px;
+    height: 200px;
+    border: solid;
+    background-color: white;
+    border-width: 3px;
+
+    margin: auto;
+}
+#character{
+    width: 20px;
+    height: 50px;
+    background-color: red;
+    position:relative;
+    top: 150px;
+}
+.animatech{
+    animation: jump 0.3s linear;
+}
+@keyframes jump{
+    0%{top: 150px;}
+    20%{top: 100px;}
+    50%{top: 100px;}
+    70%{top: 100px;}
+    100%{top: 150px;}
+}
+
+#block{
+    background-color: blue;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 130px;
+    left: 500px;
+}
+.animateb{
+    animation: block 1s infinite linear;
+}
+@keyframes block{
+    0%{left: 500px}
+    100%{left: -20px}
+}
+p,h1{
+    text-align: center;
+}
