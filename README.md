@@ -1,6 +1,7 @@
 # Dino-Jumping-Game
 
-A simple gaming site to play Dinod Jump Game .
+A simple gaming site to play Dinod Jump Game.
+
 Tech stack :
 Html
 Css
