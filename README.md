@@ -2,11 +2,11 @@
 
 A simple gaming site to play Dinod Jump Game.
 
-Tech stack :
+## Tech stack :
 Html ,
 Css ,
 Javascript
-
+## Link
 Url :  https://vinodk-17.github.io/Dino-Jumping-Game/
 
 I hope you enjoy the Game.
